@@ -1,0 +1,40 @@
+{
+  "fillModalFormTestingData": {
+    "fullyValidEmail": "hi@cym.bio",
+    "inValidEmailSyntax": "daniel@com",
+    "inValidEmailString": "email",
+    "firstName": "daniel",
+    "lastName": "bar",
+    "companyName": "company",
+    "phoneNumber": 12345,
+    "inValidPhoneNumber":"phonenumber123"
+  },
+
+  "modalInputFields": [
+    {
+      "fieldName": "email",
+      "fieldSelector": "GET_STARTED_MODAL_EMAIL_INPUT",
+      "fieldText": "Email"
+    },
+    {
+      "fieldName": "firstName",
+      "fieldSelector": "GET_STARTED_MODAL_FIRST_NAME_INPUT",
+      "fieldText": "First Name"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldSelector": "GET_STARTED_MODAL_LAST_NAME_INPUT",
+      "fieldText": "Last Name"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldSelector": "GET_STARTED_MODAL_PHONE_NUMBER_INPUT",
+      "fieldText": "Phone Number"
+    },
+    {
+      "fieldName": "companyName",
+      "fieldSelector": "GET_STARTED_MODAL_COMPANY_NAME_INPUT",
+      "fieldText": "Company Name"
+    }
+  ]
+}

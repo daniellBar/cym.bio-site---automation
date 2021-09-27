@@ -1,0 +1,28 @@
+{
+  "menus": [
+    { "name": "WHY CYMBIO", "endpoint": "why-cymbio" },
+    { "name": "COMPANY", "endpoint": "about" },
+    { "name": "PRODUCT", "endpoint": "product" },
+    { "name": "RESOURCES", "endpoint": "blog" },
+    { "name": "CONTACT", "endpoint": "contact" }
+  ],
+
+  "subMenus": [
+    {
+      "parentName": "COMPANY",
+      "menuItems": [
+        { "name": "About", "endpoint": "about" },
+        { "name": "Careers", "endpoint": "careers" }
+      ]
+    },
+    {
+      "parentName": "RESOURCES",
+      "menuItems": [
+        { "name": "Blog", "endpoint": "blog" },
+        { "name": "Case Studies", "endpoint": "case-studies" },
+        { "name": "Content Hub", "endpoint": "content-hub" }
+      ]
+    }
+  ],
+  "dropdownPseudoElementContent": "url(\"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10.291' height='6.069' viewBox='0 0 10.291 6.069'><path id='kids' d='M7.52-3.5,6.6-2.578,1.45-7.724,6.6-12.869l.924.924L3.3-7.724Z' transform='translate(12.869 7.52) rotate(-90)' fill='%235c03ec'/></svg>\")"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "cym.bio-cypress",
+  "version": "1.0.0",
+  "description": "cypress testing for cym.bio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.4.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.5.1"
+  }
+}
